@@ -1,8 +1,8 @@
-//Create a function that selects a number(salary cap) between 20-150.//
+//Create a function that selects a number(salary cap) between 30-150.//
 //to do that we need 120-19= 101 + 19 //
 
 $ (document).ready (function(){
-	var Random=Math.floor(Math.random()*130+20)
+	var Random=Math.floor(Math.random()*120+30)
 
 // next have to append var=random to randomNumber id in html//
 //class=numberMatch//
