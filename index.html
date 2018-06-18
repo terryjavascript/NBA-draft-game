@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Draft Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+<!-- display of title of game -->
+	<div class="header">
+		<h2>NBA Draft Game</h2>
+	</div>
+
+<!-- display instructions for users -->	
+	<div class="instructions">
+		<p id="intro"> Draft Game Instructions</p>
+	
+		<ol>
+			<p> Congrats bro, you are the team's GM for a new NBA team called Las Vegas Stallions. You are able to draft free-agent players shown below (all one-year contracts). 
+			A Salary Cap will appear at the start of the game that you have to MATCH by clicking on different players to draft. Each players will have different random values during each trial of the NBA Draft Game.
+			</br><u><i>Tip: You may draft the same player(s) more than once.</i></u>
+			</p>
+
+		<li> <strong>There are players from the table below: </strong></li>
+		<ul><strong>
+			<li id="orange" class="list"> Kristap Porzingis </li>
+			<li id="green" class="list"> Kyrie Irving </li>
+			<li id="red" class="list"> Demar De Rozan </li>
+			<li id="purple" class="list"> Kobe Bryant </li>
+			<li id="red" class="list"> James Harden </li>
+			<li id="orange" class="list"> Russell Wesbtrook </li>
+			<li id="maroon" class="list"> Lebron James </li>
+			<li id="yellow" class="list"> Steph Curry </li>
+			</strong>
+		</ul>
+
+		<li> Clicking on each player will add different salary cap to your current cap. </li>
+		<li> You win the game by matching your total slary to the given salary cap </li>
+		<li> You have to click on the players to see the increase of value that each flag holds </li>
+		<li> Each time the game is restarted, the value of players will be different as well </li>
+		</ol>
+
+		<i> Warning:This game is not sponsored by ESPN.</i>
+	
+		<img src="assets/images/stallion.png" class="logo" alt="vegas team" width="440" height="320">
+	
+	</div>
+
+	<!--the random number you have to match -->
+
+	<div class="numberMatch">
+		<p> Salary Cap: $
+			<span id="randomNumber"></span> M
+		</p>
+	</div>
+
+	<!-- total amount value user has -->
+
+	<div class="userTotal">
+		<p> Your current cap: $
+			<span id="scoreTotal"></span> M
+		</p>
+	</div>
+
+	<!-- Win and Loss Counter -->
+
+	<div class="winsAndLosses">
+		<p> Wins: [
+			<span id="numberWins">  </span> ]
+				
+			Losses: [ 
+			<span id="numberLosses"> </span> ]
+		</p>
+	</div>
+
+	<!-- the four flags images and click function (label 1-4)
+	1) blue, 2) green, 3) red, 4)yellow -->
+
+	<div class="players">
+		<img src="assets/images/porzingis.png" class=playerImage id="porzingis" alt="kristap">
+		<img src="assets/images/kyrie.png" class=playerImage id="kyrie" alt="irving">
+		<img src="assets/images/derozen.png" class=playerImage id= "derozen" alt="demar">
+		<img src="assets/images/kobe.png" class=playerImage id="kobe" alt="bryant">
+		<img src="assets/images/harden.png" class=playerImage id="harden" alt="james">
+		<img src="assets/images/westbrook.png" class=playerImage id="westbrook" alt="russell">
+		<img src="assets/images/lebron.png" class=playerImage id="lebron" alt="James">
+		<img src="assets/images/steph.png" class=playerImage id="steph" alt="curry">
+	</div>
+
+	<img src="assets/images/blow.gif" class="gif" alt="explore" width="400" height="225">
+
+	<!--  Copyright Div -->
+    <div id="footer" class="container">
+      <h4 id="copyright">&copy; Copyright 2018 Terry Kim</h4>
+      <i><h5> player pic credit to &copy; ESPN.com  - gif credit to &copy; SB*NATION</h5></i>
+    </div>
+
+
+	<!-- link javascript/jquery-->
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+	<script type="text/javascript" src="js/game.js"></script>
+
+
+</body>
+</html>

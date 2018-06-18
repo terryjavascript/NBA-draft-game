@@ -1,0 +1,160 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+	background-image: url("./images/background.jpg");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 17px;
+}
+
+div{
+	background-color: white;
+	width: 30%
+	margin: 10px;
+	border: solid 2px black;
+	padding: 6px;
+}
+
+
+h2{
+	font-size: 30pt;
+	font-family: Helvetica Compressed,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding: -15px;
+	color: white;
+}
+
+#intro{
+	margin-top: -2px;
+	font-size: 23px;
+	font-family: Helvetica Compressed,sans-serif;
+	text-align: center;
+}
+
+ol{
+	list-style: decimal inside;
+}
+
+ul{
+	list-style: disc inside;
+	text-indent: 20px;
+}
+
+.logo {
+	float: right;
+	margin-top: -290px;
+
+}
+
+
+div.players{
+	background-color: #e0e0eb;
+}
+
+div.header{
+	background-color: red;
+}
+
+div.instruction{
+	width: 65%;
+}
+
+div.instructions {
+	float: left;
+}
+
+.numberMatch{
+	clear: both;
+	float: left;
+	height: 55px;
+	width: 22%;
+}
+.winsAndLosses{
+	float: left;
+	text-align: center;
+	height: 55px;
+	width: 22.5%;
+}
+
+.userTotal{
+	float: left;
+	width: 22%;
+	height:55px;
+}
+
+.players{
+	clear: both;
+	width: 66.5%;
+}
+
+.playerImage{
+	position: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 42px;
+	height: 60px;
+}
+
+#orange{
+	color: orange;
+}
+
+#green{
+	color: green;
+}
+
+#red{
+	color: red;
+}
+
+#yellow{
+	color: #CCCC00;
+}
+
+#purple{
+	color: purple;
+}
+
+#maroon {
+	color: maroon;
+}
+
+.list{
+	font-size: 13px;
+}
+
+#randomNumber{
+	color: green;
+}
+
+#scoreTotal{
+	color: green;
+}
+
+
+#numberWins{
+	color: red;
+}
+
+#numberLosses{
+	color: red;
+}
+
+#footer{
+	border: none;
+	text-align: center;
+
+}
+
+#copyright{
+	margin-top: 10px;
+	margin-bottom: -20px;
+}
+
+.gif{
+	float: right;
+	margin-top: -155px;
+}
